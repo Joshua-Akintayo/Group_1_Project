@@ -1,0 +1,17 @@
+{
+  "name": "group_1_project",
+  "version": "1.0.0",
+  "description": "Group 1 Project: Personalized Greeting Form",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Oghenekome Isaiah, Aminat Sulaiman, Temitope Ayodele, Joshua Akintayo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
