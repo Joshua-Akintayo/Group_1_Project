@@ -1,7 +1,7 @@
 // Importing the necessary packages
 import express from "express";
 import path from "path";
-import { fileURLToPath } from "url"; 
+import { fileURLToPath } from "url";
 
 // Path in ESM since we do not have __dirname or __filename
 const __filename = fileURLToPath(import.meta.url);
@@ -18,13 +18,13 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
-// Receive the submitted name 
+// Receive the submitted name
 app.post("/submit", (req, res) => {
   const name = req.body.name;
   console.log(`Received submission: ${name}`);
   // Display the personalized greeting
   res.send(
-    `<h1>Hello ${name}, Your form has ben successfully submitted </h1>`
+    `<h1>Hello ${name}, Your form has been successfully submitted </h1>`
   );
 });
 
