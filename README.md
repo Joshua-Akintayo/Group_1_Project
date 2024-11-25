@@ -1,4 +1,4 @@
-Summary of how forms are processed
+Summary of how forms are processed.
 
 When a GET request is made to the base url i.e ('/'), the server serves the html file that contains the form. This is why when the user enters the base url which in our case is the localhost:3000, the user sees the form where he is asked to input his name.
 
